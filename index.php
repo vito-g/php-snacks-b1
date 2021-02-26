@@ -58,7 +58,7 @@
       // echo '<br>' . '<br>';
       echo '<strong>' . 'Match di giornata' . '</strong>' .'<br>';
       for ($i = 0; $i < count($allMatchesDaily); $i++) {
-        echo $allMatchesDaily[$i]['homeTeam'] . '-' . $allMatchesDaily[$i]['awayTeam'] . ' ' . '|' . ' ' . $allMatchesDaily[$i]['homeTeamScore'] . '-' . $allMatchesDaily[$i]['awayTeamScore'] . '<br>';
+        echo $allMatchesDaily[$i]['homeTeam'] . ' ' . '-' . ' ' . $allMatchesDaily[$i]['awayTeam'] . ' ' . '|' . ' ' . $allMatchesDaily[$i]['homeTeamScore'] . ' ' . '-' . ' ' . $allMatchesDaily[$i]['awayTeamScore'] . '<br>';
       }
 
 
