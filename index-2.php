@@ -15,9 +15,9 @@
       $occurrencyTwo = '.';
 
       if (((strpos($email, $occurrencyOne) !== false) && (strpos($email, $occurrencyTwo) !== false)) && (is_numeric($age)) && (strlen($name) > 3)){
-      echo "OK";
+      echo "Accesso riuscito!";
     } else{
-      echo "KO";
+      echo "Accesso negato!";
     }
 
       // echo 'prova';
