@@ -42,11 +42,24 @@
       $allMatchesDaily = [];
 
       array_push($allMatchesDaily, $matchOne, $matchTwo, $matchThree, $matchFour );
+      echo  '<strong>' . 'L\'Array di tutti i match di giornata:' . '</strong>' . '<br>';
       var_dump($allMatchesDaily);
       echo '<br>' . '<br>';
       //Funziona:
+      echo 'Single Match' . '<br>';
       echo $matchOne['homeTeam'] . '-' . $matchOne['awayTeam'] . ' ' . '|' . ' ' . $matchOne['homeTeamScore'] . '-' . $matchOne['awayTeamScore'];
-    
+
+      echo '<br>' . '<br>';
+
+      // for ($i = 0; $i < count($allMatchesDaily); $i++) {
+      //   echo $matchOne['homeTeam'] . '-' . $matchOne['awayTeam'] . ' ' . '|' . ' ' . $matchOne['homeTeamScore'] . '-' . $matchOne['awayTeamScore'];
+      // }
+
+      echo '<br>' . '<br>';
+      echo 'Match di giornata' . '<br>';
+      for ($i = 0; $i < count($allMatchesDaily); $i++) {
+        echo $allMatchesDaily[$i]['homeTeam'] . '-' . $allMatchesDaily[$i]['awayTeam'] . ' ' . '|' . ' ' . $allMatchesDaily[$i]['homeTeamScore'] . '-' . $allMatchesDaily[$i]['awayTeamScore'] . '<br>';
+      }
 
 
 
