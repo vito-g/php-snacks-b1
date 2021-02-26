@@ -3,7 +3,10 @@ repo: php-snacks-b1
 
 PHP Snack 1:
 
-Creiamo un array 'matches' contenente altri array i quali rappresentano delle partite di basket di un’ipotetica tappa del calendario. Ogni array della partita avrà una squadra di casa e una squadra ospite, punti fatti dalla squadra di casa e punti fatti dalla squadra ospite.
+Creiamo un array 'matches' contenente altri array i quali rappresentano delle partite di basket di un’ipotetica tappa del calendario.
+
+ Ogni array della partita (array nell'array 'matches') avrà una squadra di casa e una squadra ospite, punti fatti dalla squadra di casa e punti fatti dalla squadra ospite.
+
 Stampiamo a schermo tutte le partite con questo schema:
 Olimpia Milano - Cantù | 55 - 60
 
@@ -15,3 +18,21 @@ conosciamo nella documentazione) che:
 2. mail contenga un punto e una chiocciola
 3. age sia un numero.
 Se tutto è ok stampare “Accesso riuscito”, altrimenti “Accesso negato”
+
+
+
+De\'Longhi Treviso-Dolomiti Energia Trentino
+
+Virtus Roma-Fortitudo Lavoropiù Bologna
+
+Openjobmetis Varese-Germani Brescia
+
+UNAHOTELS Reggio Emilia-A|X Armani Exchange Milano
+
+Allianz Pallacanestro Trieste-Vanoli Basket Cremona
+
+Carpegna Prosciutto Pesaro-Banco di Sardegna Sassari
+
+Virtus Segafredo Bologna-Acqua S.Bernardo Cantù
+
+Umana Reyer Venezia-Happy Casa Brindisi
