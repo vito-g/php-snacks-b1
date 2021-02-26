@@ -14,7 +14,12 @@
       $occurrencyOne = '@';
       $occurrencyTwo = '.';
 
-    
+      if (((strpos($email, $occurrencyOne) !== false) && (strpos($email, $occurrencyTwo) !== false)) && (is_numeric($age))){
+      echo "OK";
+    } else{
+      echo "KO";
+    }
+
       // echo 'prova';
 
      ?>
