@@ -15,6 +15,7 @@
         'awayTeamScore' => 12
       ];
 
+
       $matchTwo = [
         'homeTeam' => 'Virtus Roma',
         'awayTeam' => 'Fortitudo Lavoropiù Bologna',
@@ -42,6 +43,10 @@
 
       array_push($allMatchesDaily, $matchOne, $matchTwo, $matchThree, $matchFour );
       var_dump($allMatchesDaily);
+      echo '<br>' . '<br>';
+      //Funziona:
+      echo $matchOne['homeTeam'] . '-' . $matchOne['awayTeam'] . ' ' . '|' . ' ' . $matchOne['homeTeamScore'] . '-' . $matchOne['awayTeamScore'];
+    
 
 
 
