@@ -8,21 +8,20 @@
 
 
     <?php
+
       $name = $_GET['name'];
       $email = $_GET['email'];
       $age = $_GET['age'];
       $occurrencyOne = '@';
       $occurrencyTwo = '.';
 
-      if (((strpos($email, $occurrencyOne) !== false) && (strpos($email, $occurrencyTwo) !== false)) && (is_numeric($age)) && (strlen($name) > 3)){
+      if (((strpos($email, $occurrencyOne) !== false) && (strpos($email, $occurrencyTwo) !== false)) && (is_numeric($age)) && (strlen($name) > 3)) {
       echo "Accesso riuscito!";
-    } else{
-      echo "Accesso negato!";
-    }
+      } else {
+        echo "Accesso negato!";
+      }
 
-      // echo 'prova';
-
-     ?>
+    ?>
 
 
   </body>
