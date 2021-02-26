@@ -37,6 +37,11 @@
       ];
 
       var_dump($matchOne);
+      echo '<br>' . '<br>';
+      $allMatchesDaily = [];
+
+      array_push($allMatchesDaily, $matchOne, $matchTwo, $matchThree, $matchFour );
+      var_dump($allMatchesDaily);
 
 
 
