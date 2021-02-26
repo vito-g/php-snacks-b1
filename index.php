@@ -50,7 +50,7 @@
       // echo $matchOne['homeTeam'] . '-' . $matchOne['awayTeam'] . ' ' . '|' . ' ' . $matchOne['homeTeamScore'] . '-' . $matchOne['awayTeamScore'];
 
       // echo '<br>' . '<br>';
-
+      //Banale Prova di Funzionamento del For
       // for ($i = 0; $i < count($allMatchesDaily); $i++) {
       //   echo $matchOne['homeTeam'] . '-' . $matchOne['awayTeam'] . ' ' . '|' . ' ' . $matchOne['homeTeamScore'] . '-' . $matchOne['awayTeamScore'];
       // }
