@@ -14,7 +14,7 @@
       $occurrencyOne = '@';
       $occurrencyTwo = '.';
 
-      if (((strpos($email, $occurrencyOne) !== false) && (strpos($email, $occurrencyTwo) !== false)) && (is_numeric($age))){
+      if (((strpos($email, $occurrencyOne) !== false) && (strpos($email, $occurrencyTwo) !== false)) && (is_numeric($age)) && (strlen($name) > 3)){
       echo "OK";
     } else{
       echo "KO";
